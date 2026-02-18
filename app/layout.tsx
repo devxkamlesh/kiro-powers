@@ -9,7 +9,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kiro-powers.dev"),
+  metadataBase: new URL("https://kiro-powers.vercel.app"),
   title: {
     default: "Kiro Powers | CTO-in-a-box for SaaS Founders by Kamlesh Choudhary",
     template: "%s | Kiro Powers",
@@ -62,13 +62,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://kiro-powers.dev",
+    url: "https://kiro-powers.vercel.app",
     title: "Kiro Powers | CTO-in-a-box for SaaS Founders",
     description: "3 Production-Grade Kiro Powers for Full Stack Development. Open source tools for startups and enterprises.",
     siteName: "Kiro Powers by Kamlesh Choudhary",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://kiro-powers.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Kiro Powers - Production-Grade Development Tools",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     title: "Kiro Powers | CTO-in-a-box for SaaS Founders",
     description: "3 Production-Grade Kiro Powers for Full Stack Development",
     creator: "@devxkamlesh",
-    images: ["/og-image.png"],
+    images: ["https://kiro-powers.vercel.app/og-image.png"],
   },
   robots: {
     index: true,
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://kiro-powers.dev",
+    canonical: "https://kiro-powers.vercel.app",
   },
   category: "technology",
 };
@@ -131,7 +131,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <link rel="canonical" href="https://kiro-powers.dev" />
+        <link rel="canonical" href="https://kiro-powers.vercel.app" />
         <meta name="theme-color" content="#9046ff" />
         <Script
           id="json-ld"
