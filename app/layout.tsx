@@ -133,6 +133,14 @@ export default function RootLayout({
       <head>
         <link rel="canonical" href="https://kiro-powers.vercel.app" />
         <meta name="theme-color" content="#9046ff" />
+        <meta property="og:image" content="https://kiro-powers.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:title" content="Kiro Powers | CTO-in-a-box for SaaS Founders" />
+        <meta property="og:description" content="3 Production-Grade Kiro Powers for Full Stack Development. Open source tools for startups and enterprises." />
+        <meta property="og:url" content="https://kiro-powers.vercel.app" />
+        <meta property="og:type" content="website" />
         <Script
           id="json-ld"
           type="application/ld+json"
