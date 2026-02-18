@@ -108,45 +108,6 @@ kiro-powers/
 
 ---
 
-## 🎨 Design System
-
-**Theme**  
-• Background: Pure black (#000000)  
-• Primary: Purple (#9046ff)  
-• Glass: rgba(25, 25, 25, 0.6) with 4px blur  
-• Border: #352f3d  
-• Font: AWS Diatype (system fallback)
-
-**Components**  
-• Magnetic buttons with 15% hover strength  
-• Smooth scroll with Lenis  
-• Custom cursor with purple glow  
-• Animated particles background  
-• Glassmorphism cards
-
----
-
-## 🌐 Deployment
-
-### Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/devxkamlesh/kiro-powers)
-
-### Other Platforms
-
-Compatible with Netlify, Railway, AWS Amplify, and Cloudflare Pages.
-
-**Build Command:** `npm run build`  
-**Output Directory:** `.next`
-
----
-
-## 📄 License
-
-MIT License — See [LICENSE](LICENSE) file for details.
-
----
-
 ## 👤 Author
 
 **Kamlesh Choudhary**  
